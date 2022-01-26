@@ -5460,7 +5460,7 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.5rem 0.75rem;
   color: #6c757d;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #ff904c;
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   border-top-left-radius: calc(0.5rem - 1px);
@@ -6248,7 +6248,7 @@ textarea.form-control-lg {
   width: 2rem;
   height: 2rem;
   vertical-align: -0.125em;
-  background-color: currentColor;
+  background-color: #ff904c;
   border-radius: 50%;
   opacity: 0;
   -webkit-animation: 0.75s linear infinite spinner-grow;
@@ -6370,7 +6370,7 @@ textarea.form-control-lg {
   min-height: 1em;
   vertical-align: middle;
   cursor: wait;
-  background-color: currentColor;
+  background-color: #ff904c;
   opacity: 0.5;
 }
 .placeholder.btn::before {
@@ -6634,7 +6634,7 @@ textarea.form-control-lg {
   align-self: stretch;
   width: 1px;
   min-height: 1em;
-  background-color: currentColor;
+  background-color: #ff904c;
   opacity: 0.25;
 }
 
@@ -7809,7 +7809,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ff904c;
 }
 
 .bg-secondary {
@@ -11438,6 +11438,7 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -11495,6 +11496,7 @@ html {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
+    background-color: #ff904c;
   }
 }
 
@@ -11506,5 +11508,5 @@ html {
 }
 
 .copyright {
-  background-color: #ff904c;
+  background-color: #dfdfdf;
 }
