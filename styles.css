@@ -601,7 +601,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .img-thumbnail {
@@ -610,7 +610,9 @@ progress {
   border: 0.125rem solid #dee2e6;
   border-radius: 0.5rem;
   max-width: 100%;
-  height: auto;
+  height: 300px;
+  width: 300px;
+
 }
 
 .figure {
@@ -11484,7 +11486,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #a05720;
+  color: #fff;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11496,7 +11498,7 @@ html {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
-    background-color: #ff904c;
+    background-color: #fff;
   }
 }
 
