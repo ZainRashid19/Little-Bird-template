@@ -11512,3 +11512,9 @@ html {
 .copyright {
   background-color: #dfdfdf;
 }
+
+.center{
+  text-align: center;
+  color:black;
+  size:15px;
+}
