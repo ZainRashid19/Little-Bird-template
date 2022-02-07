@@ -53,7 +53,14 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-showForm() {
-
-  document.getElementByID("mailingHeader").display = "none";
-  }
+function showForm()
+  {
+    if (document.getElementById("contactForm").style.display == "block")
+    {
+      document.getElementById("contactForm").style.display = "none";
+    }
+    else
+    {
+    document.getElementById("contactForm").style.display = "block";
+    }
+  };  
